@@ -4,6 +4,8 @@ import './App.css';
 // import CurlyBraces from './component/CurlyBraces';
 import Properties from './component_manage/Properties';
 import Example2 from './component_manage/Example/Example2';
+import { ListFormat } from 'typescript';
+import ListRender from './component_manage/Example/ListRender';
 
 function App() {
   return (
@@ -13,9 +15,10 @@ function App() {
       {/* <CurlyBraces /> */}
       {/* <Properties /> */}
       {/* <ConditionalRender />*/}
-      <Example2 />
+      {/* <Example2 /> */}
+      <ListRender />
     </>
-  );
-}
+  )
+};
 
 export default App;
