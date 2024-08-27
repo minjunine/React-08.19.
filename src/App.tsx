@@ -6,6 +6,7 @@ import Properties from './component_manage/Properties';
 import Example2 from './component_manage/Example/Example2';
 import ListFormat  from 'typescript';
 import ListRender from './component_manage/Example/ListRender';
+import HookComponent1 from './hook/HookComponent1';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       {/* <EventComponent /> */}
       {/* <StateComponent /> */}
       {/* <ForwordingStateComponent /> */}
+      <HookComponent1 />
     </>
   );
 }
