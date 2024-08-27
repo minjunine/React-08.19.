@@ -7,6 +7,7 @@ import Example2 from './component_manage/Example/Example2';
 import ListFormat  from 'typescript';
 import ListRender from './component_manage/Example/ListRender';
 import HookComponent1 from './hook/HookComponent1';
+import HookComponent2 from './hook/HookComponent2';
 
 function App() {
   return (
@@ -21,7 +22,8 @@ function App() {
       {/* <EventComponent /> */}
       {/* <StateComponent /> */}
       {/* <ForwordingStateComponent /> */}
-      <HookComponent1 />
+      {/* <HookComponent1 /> */}
+      <HookComponent2 />
     </>
   );
 }
