@@ -3,12 +3,12 @@ import Component, { FunctionComponent } from './component/Component';
 import './App.css';
 import CurlyBraces from './component/CurlyBraces';
 import Properties from './component_manage/Properties';
-import ConditionalRender from './component_manage/ConditionalRender';
-import Example2 from './component_manage/example/Example2';
-import ListRender from './component_manage/ListRender';
+// import ConditionalRender from './component_manage/ConditionalRender';
+// import Example2 from './component_manage/example/Example2';
+// import ListRender from './component_manage/ListRender';
 import EventComponent from './interaction/EventComponent';
 import StateComponent from './interaction/StateComponent';
-import ForwordingComponent from './interaction/ForwordingComponent';
+// import ForwordingComponent from './interaction/ForwordingComponent';
 import HookComponent1 from './hook/HookComponent1';
 import HookComponent2 from './hook/HookComponent2';
 import CustomHook from './hook/CustomHook';
@@ -16,6 +16,7 @@ import { Outlet, Route, Routes, useLocation } from 'react-router';
 import QueryString from './router/QueryString';
 import PathVariable from './router/PathVariable';
 import PathMove from './router/PathMove';
+import Zustand from './zustand/Zustand';
 
 // react-router 패키지:
 // - react의 SPA(Single Page Application)에서 라우팅을 구현하기 위한 라이브러리
@@ -70,6 +71,7 @@ function App() {
         <Route path='path-variable/:name' element={<PathVariable />} />
         <Route path='path-move' element={<PathMove />} />
     </Route>
+    <Route path='/zustand' element={<Zustand />} />
     <Route path='*' element={<h1>404!!!</h1>} />
 
       {/* <Component /> */}
