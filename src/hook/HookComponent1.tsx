@@ -77,6 +77,9 @@ export default function HookComponent1() {
 
 function SubComponent () {
 
+    // 전달한 콜백 함수의 return으로 컴포넌트가 umount 될때 실행할 함수를 반환
+    // 상태 스코프와 연결하여 사용할 필요가 없음
+    
     useEffect(() => {
        console.log('sub component mount!');
 
