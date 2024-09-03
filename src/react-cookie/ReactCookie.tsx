@@ -59,8 +59,8 @@ export default function ReactCookie() {
         // removeCookie 함수를 사용하여 쿠키 제거 가능
         // 첫번째 매개변수 : 쿠키 이름
         // 두번째 매개변수 : 옵션
-        removeCookie(name);
-        removeCookie(name, { path: '/zustand' })
+        // removeCookie(name);
+        removeCookie(name, { path: '/zustand' });
 
     };
 
